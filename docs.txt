@@ -1,0 +1,37 @@
+npm install -g create-react-native-app
+
+create-react-native-app cryptocurrency
+
+cd AwesomeProject
+npm start
+
+npm i -g npm
+
+# npm install -g react-native-cli
+# npm install -g yarn
+# react-native init cryptocurrency //react-native init newproject --version react-native@0.55.4
+
+
+splash scrren
+https://medium.com/@yosua1011/how-to-add-splash-screen-to-react-native-app-under-10-minutes-android-react-native-0-50-e19ed01b632b
+# npm i react-native-splash-screen --save 
+# react-native link react-native-splash-screen
+
+
+clean project 
+# cd android && gradlew clean
+# cd .. && react-native run-android
+
+signed apk :
+https://reactnativecode.com/generate-signed-release-android-apk/
+
+# final call : cd android && gradlew assembleRelease
+
+
+-- after change res/icon image 
+1. android / app/ build.gradle 
+android {
+
+   ...  aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false }...
+2. cd android && gradlew clean
