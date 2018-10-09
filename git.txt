@@ -1,0 +1,37 @@
+# git remote 
+# git status  // show changed file
+# git push -u origin master
+
+# git add -A // only update changes
+
+
+# git status  // show changed file
+# git init
+# git add filename  // git add -A : to add all files new files, changes and removed files
+# git commit -m "comments"   // -a commit all
+# git remote add origin ssh://git@88.198.137.158/cryptoWallet
+# git push -u origin master
+
+
+// single file
+git commit yourfile.js
+git status
+git push origin master
+
+
+:: get fetch /// only fetch
+:: git pull /// fetch and merge
+
+##// switch branch
+ git branch test // create a test branch
+ git checkout <branch name> 
+ git branch // show all branches
+ 
+git branch -b test //create a branch a switch to it
+
+
+## revert 
+:: git revert commitid
+
+
+software03@me
